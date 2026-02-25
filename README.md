@@ -93,11 +93,6 @@ const fetchTrailer = async (movieId) => {
 };
 ```
 ---
-## Trello Progress
-
-<img width="979" height="509" alt="Image" src="https://github.com/user-attachments/assets/77d49589-87e7-422c-849a-57b1383d4fce" />
-
----
 
 ## Security Context
 The TMDB API key is strictly excluded from source control. The application utilizes Expo's environment variable implementation. To run this project locally, a `.env` file must be securely created at the project root containing a valid TMDB v3 Auth Key prefixed with `EXPO_PUBLIC_`.
@@ -124,3 +119,8 @@ EXPO_PUBLIC_TMDB_API_KEY=your_api_key
 ```bash
 npx expo start -c
 ```
+
+---
+## Trello Progress
+
+<img width="979" height="509" alt="Image" src="https://github.com/user-attachments/assets/77d49589-87e7-422c-849a-57b1383d4fce" />
