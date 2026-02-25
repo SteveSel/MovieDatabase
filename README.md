@@ -92,6 +92,10 @@ const fetchTrailer = async (movieId) => {
   }
 };
 ```
+---
+## Trello Progress
+
+<img width="979" height="509" alt="Image" src="https://github.com/user-attachments/assets/77d49589-87e7-422c-849a-57b1383d4fce" />
 
 ---
 
