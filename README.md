@@ -64,6 +64,8 @@ const fetchMovies = () => {
       setIsLoading(false);
     });
 };
+```
+
 ### 2. Trailer Fetching (`fetchTrailer`)
 When a user selects a movie and requests the trailer, a secondary asynchronous request is made to the `/videos` endpoint using the specific Movie ID. The response array is then parsed to locate the official YouTube video key.
 
